@@ -1,2 +1,2 @@
 # Node_basic
-projetos Node Básico a fim de estudos
+projetos Node JS básicos a fim de estudos
