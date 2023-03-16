@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+body {
+  width: 200vh;
+}
+
+.navbar {
+  margin-left: 70%;
+}
+
+.container-sm {
+  display: flex;
+  margin-top: 3%;
+  background-color: rgba(208, 208, 208, 0.8);
+  border: 1px solid black;
+  border-radius: 0.5%;
+  padding: 3%;
+}
+
+.row {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.botao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.button {
+  color: rgb(0, 0, 0);
+  outline: none;
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  width: 100px;
+  height: 45px;
+  border-radius: 7%;
+  font-weight: 600;
+  transition: 0.8s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(30, 30, 30);
+  color: rgba(208, 208, 208, 0.886);
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  margin-top: 3%;
+  background-color: rgba(208, 208, 208, 0.8);
+  color: black;
+  border-radius: 0.5%;
+  padding: 3%;
+}
+
+.button-delete {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: -5%;
+  font-size: 1.23rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.button-delete:hover {
+  transform: scale(1.3);
+}
+
+.button-edit {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: -5%;
+  font-size: 1.23rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.button-edit:hover {
+  transform: scale(1.3);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
